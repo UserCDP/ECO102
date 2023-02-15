@@ -4,3 +4,4 @@
 
 # 2 Exercise
 [The dofile](TD2/Session2_Exercise.do)
+4. d) The highest GDP in 1960, and savings rate was in OECD countries, but the higest GDP growth was in Intermediate countries.
