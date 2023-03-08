@@ -27,3 +27,10 @@ regress loggdp risk
 regress loggdp risk latitude asia africa other
 *c*
 ivregress 2sls loggdp latitude (risk=logmort0), first
+
+woway scatter risk logmort0
+
+ivregress 2slls risk logmort0 latitude, robust cluster(mort)
+
+drop if source0 == 0
+	ivregress 2sls loggdp latitude campaign slave asia africa other logmort0
