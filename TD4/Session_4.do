@@ -33,4 +33,4 @@ woway scatter risk logmort0
 ivregress 2slls risk logmort0 latitude, robust cluster(mort)
 
 drop if source0 == 0
-	ivregress 2sls loggdp latitude campaign slave asia africa other logmort0
+	ivregress 2sls loggdp latitude campaign slave asia africa other (risk=logmort0), cluster(logmort0) first
