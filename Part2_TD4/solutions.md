@@ -18,3 +18,6 @@ $x_1$ = participated in BDE [0,1], and
 $x_2$ = class at 8 [0,1]
 
 We have a variable where we consider both $x_1$ and $x_2$ because some members are affected by both factors
+
+![regression_indicator](https://user-images.githubusercontent.com/62444350/234503090-4813e269-898b-4635-ad1f-365b0a6ad5ab.png)
+
